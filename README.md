@@ -2,7 +2,10 @@
 
 Boilerplate project to just download and start building projects (web application). This boilerplate is used by me in my projects.
 
-*[If you are looking for Api Boilerplate](https://github.com/mrhammadasif/nitro-api)*
+### Other Variants of My Boilerplates
+
+- [AngularJS](https://github.com/mrhammadasif/nitro-web-ng)
+- [ExpressAPI](https://github.com/mrhammadasif/nitro-express-api)
 
 #### Ingredients
 
