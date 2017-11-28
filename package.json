@@ -9,12 +9,12 @@
   },
   "scripts": {
     "start": "run-s tsc build && run-p watch nodemon",
-    "watch": "run-p tsc:watch gulp:watch",
+    "watch": "run-s tsc:watch gulp:watch",
     "build": "gulp build",
     "gulp:watch": "gulp watch",
     "tsc": "tsc -p .",
     "tsc:watch": "tsc -w -p .",
-    "nodemon": "nodemon server"
+    "nodemon": "nodemon server.js --watch server.js"
   },
   "overrides": {
     "express-handlebars": false,
