@@ -1,11 +1,11 @@
 {
-  "name": "ntx-seed",
+  "name": "nitro-seed",
   "version": "1.0.0",
-  "main": "dist/index",
+  "main": "index",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mrhammadasif/ntx-seed"
+    "url": "https://github.com/mrhammadasif/nitro-seed"
   },
   "scripts": {
     "start": "run-s tsc build && run-p watch nodemon",
