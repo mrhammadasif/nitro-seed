@@ -1,12 +1,19 @@
 {
-  "name": "nitro-seed",
+  "name": "nitro-web",
   "version": "1.0.0",
+  "description": "",
+  "private": true,
   "main": "server",
-  "license": "MIT",
+  "license": "Apache-2.0",
+  "author": "Hammad Asif <hammad@nitroxis.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mrhammadasif/nitro-seed"
+    "url": "https://github.com/mrhammadasif/nitro-web"
   },
+  "bugs": {
+    "url": "https://github.com/mrhammadasif/nitroxis-web/issues"
+  },
+  "homepage": "https://github.com/mrhammadasif/nitroxis-web#readme",
   "scripts": {
     "start": "run-s tsc build && run-p watch nodemon",
     "watch": "run-s tsc:watch gulp:watch",
