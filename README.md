@@ -1,8 +1,8 @@
-# nitro-seed
+# nitro-web
 
-Boilerplate project to just download and start building projects
+Boilerplate project to just download and start building projects (web application). This boilerplate is used by me in my projects.
 
-This boilerplate is used by me in my projects.
+*[If you are looking for Api Boilerplate](https://github.com/mrhammadasif/nitro-api)*
 
 #### Ingredients
 
