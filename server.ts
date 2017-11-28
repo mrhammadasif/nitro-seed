@@ -24,7 +24,7 @@ app.use((req, res: express.Response, next: express.NextFunction) => {
   next()
 })
 
-app.use("/", express.static(path.join(__dirname, "./")))
+app.use("/", express.static(path.join(__dirname, "./public/")))
 
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended: false}))
@@ -32,8 +32,8 @@ app.use(bodyParser.urlencoded({extended: false}))
 
 app.engine("hbs", exphbs({
   defaultLayout: "main",
-  layoutsDir: path.join(__dirname, "../views/layouts"),
-  partialsDir: path.join(__dirname, "../views/partials"),
+  layoutsDir: path.join(__dirname, "src/views/layouts"),
+  partialsDir: path.join(__dirname, "src/views/partials"),
   extname: ".hbs"
 }))
 
