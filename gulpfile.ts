@@ -67,7 +67,7 @@ gulp.task("build:scss", () => {
   .on("error", swallowError)
 })
 
-gulp.task("build", ["build:ts", "build:js", "build:scss"])
+gulp.task("build", ["build:js", "build:scss"])
 
 gulp.task("watch", ["inject:npm", "build"], () => {
   
