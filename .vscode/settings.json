@@ -10,8 +10,6 @@
             "when": "$(basename).ts"
         },
         "node_modules": true,
-        "dist": true,
-        // "public/js": true,
-        "bower_components": true
+        "dist": true
     }
 }
