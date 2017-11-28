@@ -18,7 +18,7 @@ Boilerplate project to just download and start building projects (web applicatio
 ### Installation
 **Clone this project** into any folder by
 ```sh
-git clone git@github.com:/mrhammadasif/nitro-seed .
+git clone git@github.com:/mrhammadasif/nitro-web .
 ```
 **Install** all dependencies
 
